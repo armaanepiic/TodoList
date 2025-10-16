@@ -100,3 +100,21 @@ ul li span{
 ul li span:hover{
     background-color: #edeef0;
 }
+
+button:hover {
+    background: #ff7663;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+ul li:hover {
+    background-color: #f2f1f1;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+ul li span:hover {
+    background-color: #ffcccc;
+    color: #ff0000;
+    transform: scale(1.2);
+    transition: all 0.2s ease;
+}
